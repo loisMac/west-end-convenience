@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+h1,
+h3,
+p,
+a{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Exa';
+}
+
+body {
+    background: black;
+}
+
+
+h1 {
+  font-size: 64px;
+  padding: 10px 0 0 0;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 2px black;
+  border: 10px solid black;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+
+  
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  padding:60px 0;
+  margin: 0 auto;
+  text-align: center;
+  background: #FFD600;
+  color: black;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.circle {
+    width: 327px;
+    height: 327px;
+    left: 864px;
+    top: 150px;
+    position: absolute;
+    background: #FFD600;
+    border-radius: 9999px;
+}
+
+.curved-text {
+    width: 448.24px;
+    height: 26.05px;
+    left: 800px;
+    top: 90px;
+    position: absolute;
+}
+
+.circle-background {
+    width: 287px; 
+    height: 287px; 
+    left: 886px; 
+    top: 170px; 
+    position: absolute; 
+    mix-blend-mode: color; 
+    background: rgba(145.92, 129.02, 40.33, 0.70); 
+    box-shadow: 4px 4px 4px; 
+    border-radius: 9999px; 
+    border: 1px black solid; 
+    filter: blur(4px)
+}
+
+.opening-times {
+    width: 296px; 
+    height: 70px; 
+    left: 920px; 
+    top: 183px; 
+    position: absolute; 
+    color: black; 
+    font-size: 24px; 
+    font-family: Lexend Exa; 
+    font-weight: 400; 
+    line-height: 100px; 
+    word-wrap: break-word
+}
+
+.times {
+    width: 177px; 
+    height: 113px; 
+    left: 931px; 
+    top: 260px; 
+    position: absolute; 
+    text-align: center; 
+    color: black; 
+    font-size: 40px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+
+}
+
+.t1 {
+    left: 0px;
+    top: 235.66px; 
+    position: absolute; 
+    transform: rotate(-89.45deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.h1 {
+    left: 1.13px; 
+    top: 199.08px; 
+    position: absolute; 
+    transform: rotate(-80.10deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.e1 {
+    left: 8.22px; 
+    top: 163.41px; 
+    position: absolute; 
+    transform: rotate(-71.18deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.space1 {
+    left: 19.46px; 
+    top: 132.99px; 
+    position: absolute; 
+    transform: rotate(-64.17deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.w1 {
+    left: 29.52px; 
+    top: 111.91px; 
+    position: absolute; 
+    transform: rotate(-55.40deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.e2 {
+    left: 56.81px; 
+    top: 74.88px; 
+    position: absolute; 
+    transform: rotate(-45.16deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.s1 {
+    left: 80.55px; 
+    top: 52.05px; 
+    position: absolute; 
+    transform: rotate(-37.13deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.t2 {
+    left: 104.45px; 
+    top: 34.74px; 
+    position: absolute; 
+    transform: rotate(-29.96deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.space2 {
+    left: 127.23px; 
+    top: 22.22px; 
+    position: absolute; 
+    transform: rotate(-23.82deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.e3 {
+    left: 147.97px; 
+    top: 13.25px; 
+    position: absolute; 
+    transform: rotate(-16.52deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.n1 {
+    left: 182.23px; 
+    top: 3.84px; 
+    position: absolute; 
+    transform: rotate(-7.31deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.d1 {
+    left: 218.55px; 
+    top: 0px; 
+    position: absolute; 
+    transform: rotate(1.90deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.apostrophe1 {
+    left: 252.84px; 
+    top: 2.09px; 
+    position: absolute; 
+    transform: rotate(8.77deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.s2 {
+    left: 271.60px; 
+    top: 5.15px; 
+    position: absolute; 
+    transform: rotate(14.91deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.space3 {
+    left: 299.65px; 
+    top: 13.31px; 
+    position: absolute; 
+    transform: rotate(21.49deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.t3 {
+    left: 320.70px; 
+    top: 21.75px; 
+    position: absolute; 
+    transform: rotate(28.94deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.o1 {
+    left: 352.26px; 
+    top: 40.12px; 
+    position: absolute; 
+    transform: rotate(38.15deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.p1 {
+    left: 379.74px; 
+    top: 62.63px; 
+    position: absolute; 
+    transform: rotate(47.36deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.space4 {
+    left: 403.15px; 
+    top: 89.50px; 
+    position: absolute; 
+    transform: rotate(54.81deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.s3 {
+    left: 415.98px; 
+    top: 108.02px; 
+    position: absolute; 
+    transform: rotate(61.97deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.h2 {
+    left: 431.57px; 
+    top: 138.74px; 
+    position: absolute; 
+    transform: rotate(71.04deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.o2 {
+    left: 442.68px; 
+    top: 173.54px; 
+    position: absolute; 
+    transform: rotate(80.24deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
+.p2 {
+    left: 447.98px; 
+    top: 208.66px; 
+    position: absolute; 
+    transform: rotate(89.45deg); 
+    transform-origin: 0 0; 
+    color: white; 
+    font-size: 32px; 
+    font-family: Lexend Exa; 
+    font-weight: 900; 
+    word-wrap: break-word
+}
+
